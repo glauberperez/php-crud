@@ -1,0 +1,8 @@
+dbname = bdBooksRegister 
+
+CREATE TABLE Books (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    wasread VARCHAR(255) NOT NULL,
+    wasread boolean NOT NULL
+);
