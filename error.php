@@ -2,14 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Error</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        .wrapper{
-            width: 600px;
-            margin: 0 auto;
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Error</title>
 </head>
 <body>
     <div class="wrapper">
@@ -22,5 +17,8 @@
             </div>        
         </div>
     </div>
+    <?php
+    //this is just to dont hack a "hack"
+    ?>
 </body>
 </html>
